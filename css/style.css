@@ -1,0 +1,373 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: "Roboto", sans-serif;
+	color: #4b4b4b;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #424141;
+}
+/* ------------------------------ */
+
+.header {
+	margin: 0 0 70px 0;
+}
+
+.header__title {
+	background-color: darkgreen;
+	color: yellowgreen;
+	font-size: 70px;
+	font-weight: 900;
+	padding: 40px 0;
+	text-align: center;
+	text-shadow: 0 0 5px yellow;
+	box-shadow:
+		0 0 10px 11px yellowgreen,
+		inset 0 0 10px 11px yellowgreen;
+	border-radius: 25px;
+	border: 1px solid green;
+	margin: 12px 10px 0px 10px;
+}
+
+.main__title {
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	padding: 30px 0;
+	background-color: wheat;
+	color: rgb(153, 116, 47);
+	text-transform: uppercase;
+	box-shadow: 0 0 10px 10px rgb(153, 116, 47);
+	margin: 0 10px 40px 10px;
+	text-shadow: 4px 4px 5px #000000;
+}
+
+/* ------ Задача номер 1 ------ */
+
+.task1 {
+	background-color: #f5f5f5;
+	font-size: 0;
+	margin: 0 0 100px 0;
+}
+
+.task1__decor-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	background: url("../img/index/main/Blob_2.png") 90% -620px no-repeat;
+}
+
+.task1__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 110px 0 122px;
+}
+.task1__header {
+	margin: 0 0 78px 0;
+}
+
+.task1__header > *:not(:last-child) {
+	margin-bottom: 33px;
+}
+.task1__subtitle {
+	color: #5d62b5;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 142%; /*24px*/
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	max-width: 450px;
+	background: url("../img/icons_all/Overline_Mark.svg") 0 -6px no-repeat;
+	padding: 0 0 0 33px;
+	min-height: 17px;
+}
+.task1__tile {
+	color: #000000;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 117%; /*42px*/
+}
+
+.task1__items {
+	margin-bottom: 66px;
+}
+
+.task1__items > *:not(:nth-child(3n)) {
+	margin-right: 24px;
+}
+
+.task1__items > *:not(:nth-last-child(-n + 3)) {
+	margin-bottom: 24px;
+}
+
+.task1__item {
+	display: inline-block;
+	padding: 50px 44px 49px 43px;
+	max-width: 324px;
+	text-align: center;
+	border-radius: 20px;
+	vertical-align: top;
+}
+
+.task1__item:hover {
+	box-shadow:
+		0px 16px 24px rgba(38, 38, 38, 0.2),
+		0px 8px 16px rgba(38, 38, 38, 0.24);
+}
+
+.image {
+	width: 63px;
+	height: 63px;
+	margin: 0 auto 33px auto;
+}
+.img {
+}
+.task1__text {
+	color: #f2726f;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 136.842%; /*26px*/
+	margin: 0 0 20px;
+}
+.task1__sub-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 155%; /*24px*/
+	letter-spacing: 0.15px;
+}
+
+.task1__ikey {
+	text-align: center;
+}
+.task1__buttom {
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background-color: #f2726f;
+	padding: 17px 24.5px;
+	border-radius: 8px;
+}
+
+/* ------ Задача номер 2 ------ */
+
+.task2 {
+	background-color: #f5f5f5;
+	font-size: 0;
+	padding: 110px 0 121px 0;
+	margin: 0 0 100px 0;
+}
+.task2__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.task2__header {
+	margin: 0 0 68px 0;
+}
+.task2__sub-title {
+	color: #5d62b5;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 142%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url("../img/icons_all/Overline_Mark.svg") 0 -6px no-repeat;
+	padding: 0 0 0 33px;
+	max-width: 450px;
+	margin: 0 0 33px 0;
+}
+.task2__title {
+	color: #000;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 117%;
+}
+.task2__items {
+}
+
+.task2__items > *:not(:nth-child(3n)) {
+	margin-right: 24px;
+}
+
+.task2__items > *:not(:nth-last-child(-n + 3)) {
+	margin-bottom: 24px;
+}
+
+.task2__item {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 324px;
+	padding: 0 3px 0 0;
+}
+.task2__image {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 23px 0 0;
+	width: 63px;
+	height: 63px;
+}
+.task2__img {
+}
+.task2__text-container {
+	padding: 4px 0 0 0;
+	max-width: 235px;
+	display: inline-block;
+}
+.task2__text {
+	color: #f2726f;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 136.842%;
+	margin: 0 0 20px 0;
+}
+.task2__sub-text {
+	color: #4b4b4b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 155%;
+	letter-spacing: 0.15px;
+}
+
+/* ------ Задача номер 3 ------ */
+.task3 {
+	background-color: #f5f5f5;
+	padding: 130px 0 110px 0;
+	font-size: 0;
+}
+.task3__decor-container {
+	max-width: 1154px;
+	margin: 0 auto;
+	text-align: right;
+}
+.task3__title-image {
+	width: 637px;
+	height: 356px;
+	margin: 0 0 0 auto;
+	padding: 0 67px 0 0;
+	background: url("../img/index/main/Blob_3.png") 51% 170% no-repeat;
+	position: relative;
+}
+.task3__title-img {
+	border-radius: 40px;
+}
+.task3__main-container {
+	margin-top: -275px;
+	background-color: #29c3be;
+}
+.task3__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 111px 0 212px 0;
+}
+.task3__header {
+	color: #fff;
+	max-width: 411px;
+	margin-bottom: 76px;
+	position: relative;
+}
+.task3__sub-tite {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 142%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url("../img/icons_task3/Overline_Mark.svg") 0 -6px no-repeat;
+	padding: 0 0 0 33px;
+	margin: 0 0 32px 0;
+}
+.task3__title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 117%;
+}
+.task3__items {
+}
+
+.task3__items > *:not(:nth-child(4n)) {
+	margin-right: 24px;
+}
+.task3__item {
+	display: inline-block;
+	max-width: 237px;
+	width: 25%;
+	vertical-align: top;
+}
+.task3__image {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 11px 0 0;
+}
+.task3__img {
+	width: 76px;
+	height: 76px;
+}
+.task3__text-container {
+	display: inline-block;
+	padding: 4px 0 0 0;
+	max-width: 150px;
+}
+.task3__text {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 117%;
+	margin-bottom: 3px;
+}
+.task3__sub-text {
+	color: #5d62b5;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+}
